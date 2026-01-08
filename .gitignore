@@ -1,0 +1,32 @@
+# Create .gitignore in your project root
+touch .gitignore
+```
+
+Add this content to `.gitignore`:
+```
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# Environment variables (IMPORTANT - contains secrets!)
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

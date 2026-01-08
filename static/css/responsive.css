@@ -1,0 +1,84 @@
+@media only screen and (max-width : 2500px) {
+	.page-wrapper{
+		overflow:hidden;
+	}
+	
+}
+@media only screen and (max-width : 992px) {
+	.atf-header-area .atf-single-details h2{
+		font-size:30px;
+	}
+}
+@media only screen and (max-width : 991px) {
+	.atf-single-about{
+		margin: 15px 0px;
+	}
+	.atf-about-img{
+		margin-top: 30px;
+	}
+	.atf-single-feature{
+		margin: 15px 0px;
+	}
+	.atf-single-services{
+		margin: 15px 0px;
+	}
+	.atf-about-images{
+		margin-top: 30px;
+	}
+	.atf-contact-info{
+		margin-top: 30px;
+	}
+	.atf-about-content{
+		margin: 15px 0px;
+	}
+	.atf-single-team{
+		margin: 15px 0px;
+	}
+	.atf-choose-area{
+		margin-top:30px;
+	}
+	.atf-footer-link{
+		margin: 15px 0px;
+	}
+	.atf-mailchamp-headding h2{
+		font-size:25px;
+		margin-bottom:30px;
+	}
+	.atf_header_top_left,
+	.atf_header-social{
+		text-align:center;
+	}
+	.atf-btn-wrapper{
+		margin-top:36px;
+	}
+
+}
+@media only screen and (max-width: 767px) {
+	.atf-top-header {
+		margin-top: 100px;
+	}
+	.atf-header-area .atf-single-details h2{
+		font-size:25px;
+	}
+	.atf-blog-area .atf-single-blog img{
+		width:100%;
+	}
+	.form-message{
+		padding-bottom:30px;
+	}
+
+}
+
+@media only screen and (max-width: 576px) {
+	.atf-header-area .atf-themes-btn{
+		margin-bottom:15px;
+	}
+
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px){
+	.atf-top-header {
+		margin-top: 140px;
+	}
+
+}
