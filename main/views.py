@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from main.models import *
-# Create your views here.
 
 def indexHandler(request):
     teachers = Teacher.objects.filter(status=True)

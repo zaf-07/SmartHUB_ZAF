@@ -19,7 +19,8 @@
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">	
 		<!-- Google Fonts -->
-		<link href="../../css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap" rel="stylesheet">		
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<!--		<link href="../../css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap" rel="stylesheet">		-->
 		<!-- Font Awesome CSS -->
 		<link rel="stylesheet" href="/static/fonts/font-awesome.css">
 		<!--- owl carousel Css-->
@@ -613,7 +614,6 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-6">
 							<div class="atf-section-title title-color text-center wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-								<h3>Наше <span> Портфолио</span> </h3>
 								<div class="title-divider mt-3"> <img src="/static/img/asd.png" class="img-fluid" alt="divider"></div>
 <!--								<p class="f-15 mt-3">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>-->
 							</div>
@@ -625,7 +625,9 @@
 						<div class="col-lg-12">
 
 							<div id="gallery-slider" class="owl-carousel owl-theme atf-main-testimonials">
+
 								{% for gallery in galleries %}
+
 								<div class="atf-portfolio">
 									<img src="{{ gallery.img.url }}" alt="Portfolio">
 									<div class="atf-portfolio-content">
